@@ -1,6 +1,11 @@
+
 module.exports = (server) => {
+
     server.get('/noticias', (request, response) => {
-        response.render('noticias/noticias');
+        const connection = server.config.dbConnection();
+        connection.query('SELECT * FROM noticias', (error, result) => {
+            response.render('noticias/noticias', {noticias: result});
+        });
     });
 };
 

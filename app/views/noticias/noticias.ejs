@@ -7,6 +7,21 @@
 <body>
 
 <h1>Notícias</h1>
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Título</td>
+        <td>Notícia</td>
+    </tr>
+    <% noticias.forEach( (noticia) => { %>
+        <tr>
+            <td><%= noticia.id_noticia %></td>
+            <td><%= noticia.titulo %></td>
+            <td><%= noticia.noticia %></td>
+        </tr>
+    <% }); %>
+
+</table>
 
 </body>
 </html>
