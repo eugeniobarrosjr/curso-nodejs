@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862d346a-2da8-4c0f-9baf-00fd995a1185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/noticia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/dbConnection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/noticias.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/noticias.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/noticias/noticia.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/noticias/noticia.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/noticias/noticias.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/noticias/noticias.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alurapic" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -80,11 +69,18 @@
       <workItem from="1581590540888" duration="4829000" />
       <workItem from="1581607362528" duration="1075000" />
       <workItem from="1581674562750" duration="4523000" />
-      <workItem from="1581694103940" duration="1362000" />
+      <workItem from="1581694103940" duration="1991000" />
+      <workItem from="1581936429448" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581936443077">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.312.1366.768@67.27.1853.1053" timestamp="1581936443077" />
   </component>
 </project>

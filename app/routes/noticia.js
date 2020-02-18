@@ -1,11 +1,10 @@
-module.exports = (server) => {
+module.exports = server => {
+  server.get('/noticia', (_, response) => {
+    const connection = server.config.dbConnection();
+    const noticiasModel = server.app.models.noticiasModel;
 
-    server.get('/noticia', (request, response) => {
-        const connection = server.config.dbConnection();
-        connection.query('SELECT * FROM noticias WHERE id_noticia = 2', (error, result) => {
-            response.render('noticias/noticia', {noticia: result});
-        });
+    noticiasModel.getNoticia(connection, (_, result) => {
+      response.render('noticias/noticia', { noticia: result });
     });
+  });
 };
-
-
